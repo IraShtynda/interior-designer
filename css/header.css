@@ -17,14 +17,27 @@
     padding: 8px;
 }
 .header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: var(--light-title-color);
     padding-top: 20px;
     padding-bottom: 25px;
     height: 85px;
+    border-bottom: 1px solid var(--accent-color);
 }
+.header-nav .container {
+ display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+
 .banner {
+    position: absolute;
+    width: 100%;
+    top: 85px;
     background-image: url(../img/banner.png);
     background-position: center;
     background-size: cover;
@@ -51,7 +64,7 @@ h1 {
     max-width: 800px;
 }
 .banner {
-    padding-top: 250px;
+    padding-top: 220px;
 }
 }
 @media (min-width: 1200px) {
@@ -69,41 +82,41 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-.header-menu-item a{
+
+.header-menu-item a {
     color: var(--accent-color);
     font-size: 16px;
-    font-weight: 600;
-    padding: 10px 20px; 
+    font-weight: 600;    
 }
 .header-menu-item a:hover{
     color: var(--brand-color); 
+    text-decoration: underline;
 }
-.header-menu-item a:hover::after{
-    content: "";
-    position: absolute;
-    height: 2px;
-    right: 51%;
-    bottom: -2px;
-    left: 51%;
-    background-color: #d9b256;
-    transition-property: left,right;
-    transition-duration: .3s;
-    transition-timing-function: ease-in-out; 
+.header-menu-item {
+   position: relative;
+   padding: 10px 20px;
 }
-.header-icon img {
-    width: 30px;
+
+.header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 1px solid var(--brand-color);
-    padding: 5px;
+    padding: 7px;
     margin: 0 5px;
+    color: var(--brand-color);  
 }
-.header-icon img:hover {
-    background-color: var(--brand-color);
+
+.header-icon:hover {
+  background-color: var(--brand-color); 
+  color: var(--light-title-color); 
 }
 
 .banner {
-    padding-top: 200px;
+    padding-top: 170px;
     height: calc(100vh - 91px);
 }
 h1 {

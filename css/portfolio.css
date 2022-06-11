@@ -1,0 +1,43 @@
+.portfolio {
+    background-image: url(../img/porpfolio_bg.jfif);
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.portfolio .decor-line {
+    background-color: var(--light-title-color);
+}
+.portfolio-title {
+    color: var(--light-title-color);
+}
+.portfolio-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-inner {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-inner {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 30px;
+    gap: 30px;
+}
+.portfolio-row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.portfolio-btn a{
+   color: var(--light-title-color); 
+   border: 2px solid var(--light-title-color);
+}
+
+.button a:hover{
+    color: var(--dark-title-color);
+   background-color: var(--light-title-color);
+}
