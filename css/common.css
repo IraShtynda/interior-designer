@@ -1,117 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap");
 
 :root {
-    font-family: 'Open Sans', sans-serif;
-    --light-title-color: #FFFFFF;
-    --dark--title-color: #242424;
-    --brand-color: #D9B256;
-    --accent-color: #4D4F5B;
-    --title-font-family: 'Montserrat', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  --light-title-color: #ffffff;
+  --dark-title-color: #242424;
+  --brand-color: #d9b256;
+  --accent-color: #4d4f5b;
+  --title-font-family: "Montserrat", sans-serif;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .container {
-    max-width: 1280px;
-    margin: auto;
-    padding: 0 24px;
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 24px;
 }
 
 h2 {
-    font-family: var(--title-font-family);
-    color: var(--dark--title-color);
-    font-size: 30px;
-    line-height: 39px;
-    font-weight: 700;
+  font-family: var(--title-font-family);
+  color: var(--dark-title-color);
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 700;
 }
 h3 {
-    font-family: var(--title-font-family);
-    color: var(--dark--title-color);
-    font-size: 22px;
-    line-height: 32px;
-    font-weight: 700;
+  font-family: var(--title-font-family);
+  color: var(--dark-title-color);
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
 }
 h4 {
-    color: var(--accent-color);
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 700;
+  color: var(--accent-color);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
 }
 p {
-    color: var(--accent-color);
-    font-size: 16px;
-    line-height: 27px;
-    font-weight: 400;
+  color: var(--accent-color);
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
 }
-@media (min-widht: 768px) {
-    .container {
+@media (min-width: 768px) {
+  .container {
     padding: 0 32px;
-}
-h2 {
+  }
+  h2 {
     font-size: 32px;
     line-height: 42px;
+  }
 }
-}
-@media (min-widht: 1200px) {
-    .container {
+@media (min-width: 1200px) {
+  .container {
     padding: 0 40px;
-}
-h2 {
+  }
+  h2 {
     font-size: 35px;
     line-height: 42px;
+  }
 }
 
+.button a {
+  display: inline-block;
+  font-family: var(--title-font-family);
+  color: var(--dark-title-color);
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 26px;
+  border: 2px solid var(--brand-color);
 }
-
-.button a{
-    display: inline-block;
-   font-family: var(--title-font-family);
-    color: var(--dark--title-color);
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 700;
-    padding: 15px 30px;
-    border-radius: 26px;
-    border: 2px solid var(--brand-color);
-}
-.button a:hover{
-    color: var(--light-title-color);
-   background-color: var(--brand-color);
+.button a:hover {
+  color: var(--light-title-color);
+  background-color: var(--brand-color);
 }
 .title-decor {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 12px;
-    padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 12px;
+  padding-bottom: 15px;
 }
 .decor-line {
-    width: 4px;
-    height: 15px;
-    background-color: var(--brand-color);
+  width: 4px;
+  height: 15px;
+  background-color: var(--brand-color);
 }
 
 .decor-line:nth-child(2) {
-    height: 30px;
+  height: 30px;
 }
-

@@ -1,0 +1,43 @@
+.awards {
+  background-image: url(../img/services_bg.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 85px;
+  padding-bottom: 90px;
+}
+.awards-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.awards-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.awards-title {
+  text-align: center;
+}
+.awards-image {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.awards-image img {
+  width: 200px;
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .awards-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .awards-inner {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
