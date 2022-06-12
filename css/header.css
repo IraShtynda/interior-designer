@@ -21,6 +21,7 @@
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
     z-index: 2;
     background-color: var(--light-title-color);
     padding-top: 20px;
@@ -83,20 +84,16 @@ h1 {
     justify-content: space-between;
 }
 
-.header-menu-item a {
+.header-menu-item {
     color: var(--accent-color);
     font-size: 16px;
-    font-weight: 600;    
+    font-weight: 600;  
+    padding: 5px;
+    margin: 5px 15px;
 }
-.header-menu-item a:hover{
-    color: var(--brand-color); 
-    text-decoration: underline;
+.header-menu-item:hover{
+    color: var(--brand-color);
 }
-.header-menu-item {
-   position: relative;
-   padding: 10px 20px;
-}
-
 .header-icon {
     display: flex;
     justify-content: center;
