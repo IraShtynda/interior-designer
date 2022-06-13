@@ -1,8 +1,8 @@
 .contact {
   background-image: linear-gradient(
       to top,
-      rgb(77, 79, 91, 0.9),
-      rgb(77, 79, 91, 0.9)
+      rgb(77, 79, 91, 0.8),
+      rgb(77, 79, 91, 0.8)
     ),
     url(../img/reviews_bg.png);
   background-position: center;

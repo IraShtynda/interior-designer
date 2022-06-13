@@ -1,7 +1,10 @@
-.reviews{
-    background-image: 
-  linear-gradient(to top, rgb(77, 79, 91, 0.9), rgb(77, 79, 91, 0.9)),
-  url(../img/reviews_bg.png);
+.reviews {
+  background-image: linear-gradient(
+      to top,
+      rgb(77, 79, 91, 0.8),
+      rgb(77, 79, 91, 0.8)
+    ),
+    url(../img/reviews_bg.png);
   background-position: center;
   background-size: cover;
   padding-top: 90px;
@@ -14,10 +17,10 @@
   align-items: center;
 }
 .reviews .decor-line {
-    background-color: var(--light-title-color);
+  background-color: var(--light-title-color);
 }
 .reviews-title {
-    color: var(--light-title-color);
+  color: var(--light-title-color);
 }
 .reviews-cards {
   display: flex;
@@ -40,8 +43,8 @@
 
 @media (min-width: 768px) {
   .reviews-card {
-  padding: 80px 50px;
-}
+    padding: 80px 50px;
+  }
 }
 @media (min-width: 1200px) {
   .reviews-cards {
