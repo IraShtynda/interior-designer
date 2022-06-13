@@ -22,6 +22,9 @@ footer {
   font-weight: 700;
   margin-bottom: 30px;
 }
+.footer-menu-item:hover {
+  text-decoration: underline;
+}
 .footer-title {
   color: var(--light-title-color);
 }

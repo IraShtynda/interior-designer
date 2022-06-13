@@ -20,6 +20,11 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+a,
+a:link,
+a:visited {
+  color: inherit;
+}
 
 li {
   list-style: none;
