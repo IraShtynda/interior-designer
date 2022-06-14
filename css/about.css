@@ -1,27 +1,8 @@
-.about {
-display: flex;
-flex-direction: column;
-padding-top: 90px;
-padding-bottom: 90px;
-}
-.about-image {
-    flex: 1;
-}
-.about-content {
-    margin-top: 50px;
-    flex: 1;
-}
-.about-description {
-    margin-top: 25px;
-    margin-bottom: 35px;
-}
-@media (min-width: 768px) {
-   .about {
-flex-direction: row;
-align-items: center;
-gap: 30px;
-} 
-.about-content {
-    margin-top: 0;
-}
-}
+@import url(common.css);
+@import url(header-nav.css);
+@import url(about-banner.css);
+@import url(about-studio.css);
+@import url(about-values.css);
+@import url(about-quote.css);
+@import url(discuss.css);
+@import url(footer.css);

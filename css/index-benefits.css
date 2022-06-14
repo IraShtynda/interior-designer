@@ -27,7 +27,7 @@
       rgb(77, 79, 91, 0.8),
       rgb(77, 79, 91, 0.8)
     ),
-    url(../img/benefits1.png);
+    url(../img/index/benefits1.png);
 }
 .benefits-card:nth-child(2) {
   background-image: linear-gradient(
@@ -35,7 +35,7 @@
       rgb(77, 79, 91, 0.8),
       rgb(77, 79, 91, 0.8)
     ),
-    url(../img/benefits2.png);
+    url(../img/index/benefits2.png);
 }
 .benefits-card:nth-child(3) {
   background-image: linear-gradient(
@@ -43,7 +43,7 @@
       rgb(77, 79, 91, 0.9),
       rgb(77, 79, 91, 0.9)
     ),
-    url(../img/benefits3.png);
+    url(../img/index/benefits3.png);
 }
 .benefits-card:nth-child(4) {
   background-image: linear-gradient(
@@ -51,7 +51,7 @@
       rgb(77, 79, 91, 0.9),
       rgb(77, 79, 91, 0.9)
     ),
-    url(../img/benefits4.png);
+    url(../img/index/benefits4.png);
 }
 .benefits-card:nth-child(5) {
   background-image: linear-gradient(
@@ -59,7 +59,7 @@
       rgb(77, 79, 91, 0.9),
       rgb(77, 79, 91, 0.9)
     ),
-    url(../img/benefits5.png);
+    url(../img/index/benefits5.png);
 }
 .benefits-card:nth-child(6) {
   background-image: linear-gradient(
@@ -67,7 +67,7 @@
       rgb(77, 79, 91, 0.9),
       rgb(77, 79, 91, 0.9)
     ),
-    url(../img/benefits6.png);
+    url(../img/index/benefits6.png);
 }
 .benefits-title {
   text-align: center;
