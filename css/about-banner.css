@@ -32,8 +32,6 @@
 
 @media (min-width: 768px) {
   .banner-bottom {
-    top: 50vh;
-    height: calc(50vh - 71px);
     gap: 30px;
   }
 
@@ -46,5 +44,10 @@
 @media (min-width: 1200px) {
   .banner-text {
     max-width: 780px;
+  }
+
+  .banner-bottom {
+    top: 50vh;
+    height: calc(50vh - 71px);
   }
 }
