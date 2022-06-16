@@ -47,7 +47,7 @@
   }
 
   .banner-bottom {
-    top: 50vh;
+    top: calc(50vh + 71px);
     height: calc(50vh - 71px);
   }
 }
