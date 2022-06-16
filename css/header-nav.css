@@ -121,7 +121,7 @@
 }
 
 .navigation-menu {
-  position: relative;
+  position: relatie;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -198,7 +198,7 @@
   }
 
   .navigation {
-    position: relative;
+    position: fixed;
     padding-top: 15px;
     padding-bottom: 20px;
     height: 71px;
