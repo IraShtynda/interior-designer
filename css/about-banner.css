@@ -1,3 +1,7 @@
+.header {
+  height: 100vh;
+}
+
 .banner {
   background-image: linear-gradient(to top,
       rgb(77, 79, 91, 0.8),
@@ -43,7 +47,7 @@
 
 @media (min-width: 1200px) {
   .banner-text {
-    max-width: 780px;
+    max-width: 740px;
   }
 
   .banner-bottom {

@@ -1,8 +1,13 @@
+.header {
+  height: 100vh;
+}
+
 .banner {
   background-image: url(../img/index/banner.png);
   padding-top: 120px;
   height: calc(100vh - 60px);
 }
+
 .banner-title {
   margin-bottom: 35px;
 }
