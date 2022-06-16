@@ -1,17 +1,17 @@
 .banner {
-  background-image: linear-gradient(
-      to top,
+  background-image: linear-gradient(to top,
       rgb(77, 79, 91, 0.8),
-      rgb(77, 79, 91, 0.8)
-    ),
+      rgb(77, 79, 91, 0.8)),
     url(../img/about/about-banner.jfif);
   display: flex;
   align-items: center;
   height: 50vh;
 }
+
 .banner-title {
   text-align: center;
 }
+
 .banner-bottom {
   position: relative;
   width: 100%;
@@ -32,9 +32,11 @@
 
 @media (min-width: 768px) {
   .banner-bottom {
-    top: calc(50vh + 70px);
+    top: 50vh;
+    height: calc(50vh - 71px);
     gap: 30px;
   }
+
   .banner-text {
     font-size: 17px;
     line-height: 27px;
