@@ -1,0 +1,135 @@
+.contacts {
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    gap: 50px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 7;
+}
+
+.contact-subtitle {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.data-inner {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-title {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    width: 140px;
+}
+
+.data-text {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-text a {
+    color: var(--dark-title-color);
+}
+
+.data-text a:hover {
+    text-decoration: underline;
+}
+
+.contact-map {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 320px;
+    border: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+    align-items: center;
+    background-color: var(--accent-color);
+    padding: 45px 55px;
+    flex: 5;
+}
+
+input,
+textarea {
+    padding: 15px 30px;
+    width: 100%;
+    background-color: var(--input-color);
+    border: none;
+    border-radius: 26px;
+    font-size: 14px;
+}
+
+textarea {
+    font-family: inherit;
+    min-height: 150px;
+    resize: none;
+}
+
+form>.button {
+    display: inline-block;
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 26px;
+    color: var(--light-title-color);
+    background-color: var(--brand-color);
+    margin-top: 60px;
+}
+
+form>.button:hover {
+    background-color: var(--dark-title-color);
+}
+
+@media (min-width: 768px) {
+    .contacts {
+        top: 70px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .data-inner {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .contact-form {
+        padding: 75px;
+    }
+
+    .footer {
+        position: relative;
+        top: 70px;
+    }
+}
+
+.footer {
+    position: relative;
+    top: 60px;
+}
