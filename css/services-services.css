@@ -1,0 +1,55 @@
+.services {
+    background-image: url(../img/section_bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 85px;
+    padding-bottom: 90px;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-title {
+    margin-bottom: 45px;
+}
+
+.services-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-inner,
+.services-inner-reverse {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.services-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-title-color);
+    padding: 27px;
+    gap: 15px;
+}
+
+@media (min-width: 1200px) {
+
+    .services-inner {
+        flex-direction: row;
+    }
+
+    .services-inner-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .services-photo,
+    .services-card {
+        max-width: 600px;
+    }
+
+}
