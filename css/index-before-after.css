@@ -13,16 +13,29 @@
 
 .before-after-item {
   margin-top: 50px;
+  animation-duration: 10s;
+  animation-name: moveScale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-.before-after-item:first-child {
-  animation-duration: 2s;
-  animation-name: moveLeft;
+.before-after-item {
+  margin-top: 50px;
+  animation-duration: 5s;
+  animation-name: moveScale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-.before-after-item:last-child {
-  animation-duration: 2s;
-  animation-name: moveRight;
+@keyframes moveScale {
+  from {
+    transform: scale(0.9);
+  }
+
+  to {
+    transform: scale(1);
+  }
+
 }
 
 .before-after-image-title {
