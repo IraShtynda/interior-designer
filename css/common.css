@@ -45,6 +45,8 @@ h1 {
   font-size: 45px;
   line-height: 48px;
   font-weight: 700;
+  transition-property: all, left, top;
+  transition-duration: 3s, 5s, 3s;
 }
 
 h2 {
