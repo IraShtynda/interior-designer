@@ -19,7 +19,32 @@
 
 .services-item {
   margin-top: 50px;
-  transition: all 1s ease-in-out;
+}
+
+.services-item:first-child {
+  animation-duration: 2s;
+  animation-name: moveLeft;
+}
+
+@keyframes moveLeft {
+  from {
+    transform: translateX(-50px);
+  }
+
+  to {}
+}
+
+.services-item:last-child {
+  animation-duration: 2s;
+  animation-name: moveRight;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(50px);
+  }
+
+  to {}
 }
 
 .services-image-title {
@@ -32,6 +57,7 @@
 }
 
 @media (min-width: 768px) {
+
   .services-inner {
     flex-direction: row;
     gap: 30px;

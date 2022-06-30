@@ -45,8 +45,20 @@ h1 {
   font-size: 45px;
   line-height: 48px;
   font-weight: 700;
-  transition-property: all, left, top;
-  transition-duration: 3s, 5s, 3s;
+  animation-duration: 5s;
+  animation-name: changeColor;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeColor {
+  from {
+    color: var(--dark-title-color);
+  }
+
+  to {
+    color: var(--light-title-color);
+  }
 }
 
 h2 {

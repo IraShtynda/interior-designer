@@ -5,17 +5,31 @@
   flex-direction: column;
   align-items: center;
 }
+
 .before-after-inner {
   display: flex;
   flex-direction: column;
 }
+
 .before-after-item {
   margin-top: 50px;
 }
+
+.before-after-item:first-child {
+  animation-duration: 2s;
+  animation-name: moveLeft;
+}
+
+.before-after-item:last-child {
+  animation-duration: 2s;
+  animation-name: moveRight;
+}
+
 .before-after-image-title {
   text-align: center;
   margin-top: 30px;
 }
+
 @media (min-width: 768px) {
   .before-after-inner {
     flex-direction: row;
