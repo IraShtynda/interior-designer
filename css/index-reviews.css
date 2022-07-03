@@ -25,7 +25,7 @@
 
 .reviews-cards {
   position: relative;
-  height: 650px;
+  height: 570px;
   width: 100%;
   max-width: 1200px;
   overflow: hidden;
@@ -36,7 +36,8 @@
 .reviews-card {
   position: absolute;
   max-width: 1200px;
-  height: 650px;
+  height: 570px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,7 +89,7 @@
 
   .reviews-card,
   .reviews-cards {
-    height: 450px;
+    height: 420px;
   }
 }
 
