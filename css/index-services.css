@@ -19,15 +19,15 @@
 
 .services-item {
   margin-top: 50px;
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-name: moveScale;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-direction: alternate;
 }
 
 @keyframes moveScale {
   from {
-    transform: scale(0.9);
+    transform: scale(0);
   }
 
   to {
