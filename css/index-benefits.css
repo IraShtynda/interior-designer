@@ -80,8 +80,8 @@
   text-align: center;
   color: var(--light-title-color);
   opacity: 1;
-  transition: all 1s ease-in-out;
 }
+
 
 @media (min-width: 768px) {
   .benefits-cards {
@@ -101,5 +101,14 @@
 
   .benefits-card {
     padding: 200px 24px;
+  }
+
+  .benefits-card-description {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  .benefits-card-description:hover {
+    opacity: 1;
   }
 }
