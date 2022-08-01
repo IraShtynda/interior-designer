@@ -19,17 +19,6 @@
   animation-direction: alternate;
 }
 
-@keyframes moveScale {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
-  }
-
-}
-
 .before-after-image-title {
   text-align: center;
   margin-top: 30px;

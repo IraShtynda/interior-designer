@@ -1,0 +1,14 @@
+.banner {
+    position: relative;
+    background-image: linear-gradient(to top,
+            rgb(77, 79, 91, 0.8),
+            rgb(77, 79, 91, 0.8)),
+        url(../img/projects/projects_bg.jfif);
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+
+.banner-title {
+    text-align: center;
+}
