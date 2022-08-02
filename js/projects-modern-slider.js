@@ -20,8 +20,7 @@
                 >
         </div>`,
         `<div class="modern-image">
-            <img 
-                class="modern-image" 
+            <img
                 src="img/projects/modern_4.jpeg" 
                 alt="Modern Home"
             >
