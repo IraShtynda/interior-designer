@@ -21,6 +21,10 @@
     margin-bottom: 45px;
 }
 
+.modern-image {
+    width: 100%;
+}
+
 .modern-image>img {
     height: 330px;
 }

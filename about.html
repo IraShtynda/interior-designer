@@ -83,40 +83,62 @@
             </div>
         </section>
         <section class="values container" id="values">
-            <div class="title-decor">
-                <div class="decor-line"></div>
-                <div class="decor-line"></div>
+            <div class="values-wrapper-title">
+                <div class="title-decor">
+                    <div class="decor-line"></div>
+                    <div class="decor-line"></div>
+                </div>
+                <h2 class="values-title">Our values</h2>
             </div>
-            <h2 class="values-title">Our values</h2>
             <div class="values-inner">
-                <div class="value-item">
-                    <h3 class="value">Personal approach</h3>
-                    <p class="value-text">We apply a personal approach to each project, carefully listen to all the
+                <div class="value-item accordion">
+                    <button class="accordion-btn" aria-expanded="false">
+                        <h3 class="accordion-title">Personal approach</h3>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <p class="accordion-content" aria-hidden="true">We apply a personal approach to each
+                        project, carefully listen to all the
                         clients'
                         needs, and strive to meet their
                         expectations.</p>
                 </div>
-                <div class="value-item">
-                    <h3 class="value">Diversity</h3>
-                    <p class="value-text">We work with customers on both small and large-scale projects and
+                <div class="value-item accordion">
+                    <button class="accordion-btn" aria-expanded="false">
+                        <h3 class="accordion-title">Diversity</h3>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <p class="accordion-content" aria-hidden="true">We work with customers on both small and
+                        large-scale projects and
                         reconstructions
                         including structural changes and
                         extensions.</p>
                 </div>
-                <div class="value-item">
-                    <h3 class="value">Creativity</h3>
-                    <p class="value-text">Our creative thinking and stunning visual ideas help us deliver our clients
+                <div class="value-item accordion">
+                    <button class="accordion-btn" aria-expanded="false">
+                        <h3 class="accordion-title">Creativity</h3>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <p class="accordion-content" aria-hidden="true">Our creative thinking and stunning
+                        visual ideas help us deliver our clients
                         unique
                         and modern interior design solutions.</p>
                 </div>
-                <div class="value-item">
-                    <h3 class="value">Professionalism</h3>
-                    <p class="value-text">Our professional team has years of experience in delivering projects per your
+                <div class="value-item accordion">
+                    <button class="accordion-btn" aria-expanded="false">
+                        <h3 class="accordion-title">Professionalism</h3>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <p class="accordion-content" aria-hidden="true">Our professional team has years of
+                        experience in delivering projects per your
                         requirements, on time and on budget.</p>
                 </div>
-                <div class="value-item">
-                    <h3 class="value">Quality</h3>
-                    <p class="value-text">The highest quality is our pride and it is above all. We pay much attention to
+                <div class="value-item accordion">
+                    <button class="accordion-btn" aria-expanded="false">
+                        <h3 class="accordion-title">Quality</h3>
+                        <span class="accordion-icon"></span>
+                    </button>
+                    <p class="value-text accordion-content" aria-hidden="true">The highest quality is our pride and it
+                        is above all. We pay much attention to
                         every detail to exceed clients'
                         expectations.</p>
                 </div>
@@ -185,6 +207,7 @@
         </div>
     </footer>
     <script src="js/burger-menu.js"></script>
+    <script src="js/accordion-values.js"></script>
 </body>
 
 </html>
