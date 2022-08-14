@@ -6,37 +6,8 @@
         slidesField = document.querySelector('.image-container'),
         width = window.getComputedStyle(slidesWrapper).width;
 
-<<<<<<< HEAD
     let slideIndex = 1,
         offset = 0;
-=======
-    const slides = [
-        `<div class="modern-image">
-            <img
-                src="img/projects/modern_1.jpeg"
-                alt="Modern Home"
-            >
-        </div>`,
-        `<div class="modern-image">
-            <img
-                src="img/projects/modern_2.jpeg"
-                alt="Modern Home"
-            >
-        </div>`,
-        `<div class="modern-image">
-                <img
-                    src="img/projects/modern_3.jpeg"
-                    alt="Modern Home"
-                >
-        </div>`,
-        `<div class="modern-image">
-            <img
-                src="img/projects/modern_4.jpeg" 
-                alt="Modern Home"
-            >
-        </div>`
-    ]
->>>>>>> 4991028839bb9f07b03fd1007ab8a1bd85a7ead3
 
     slidesField.style.width = 100 * slides.length + '%';
     slidesField.style.display = 'flex';
@@ -103,9 +74,4 @@
 
     })
 
-<<<<<<< HEAD
 })()
-=======
-    window.addEventListener('resize', showCurrentSlide);
-})()
->>>>>>> 4991028839bb9f07b03fd1007ab8a1bd85a7ead3
