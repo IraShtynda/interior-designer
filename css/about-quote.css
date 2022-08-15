@@ -1,44 +1,46 @@
 .quote {
-  background-image: linear-gradient(
-      to top,
-      rgb(77, 79, 91, 0.8),
-      rgb(77, 79, 91, 0.8)
-    ),
-    url(../img/about/quote-about.png);
+  background-image: url(../img/about/quote-about.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 90px;
   padding-bottom: 90px;
 }
+
 .quote-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .quote-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border-left: 1px solid var(--light-title-color);
+  border-left: 1px solid var(--dark-title-color);
   padding: 37px 27px;
 }
+
 .quote-text {
-  color: var(--light-title-color);
+  color: var(--dark-title-color);
   font-style: italic;
   font-size: 18px;
   line-height: 30px;
+  width: 80%;
   font-weight: 400;
 }
+
 .quote-signature {
-  color: var(--light-title-color);
+  color: var(--dark-title-color);
   margin-top: 30px;
 }
+
 @media (min-width: 1200px) {
   .quote {
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
   .quote-card {
     padding: 55px 35px;
     width: 70%;
